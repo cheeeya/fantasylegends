@@ -1,5 +1,5 @@
 const fs = require('fs');
-const each = require('lodash.each');
+const { each } = require('lodash');
 
 const envVariables = require('../config/.env.sample');
 
