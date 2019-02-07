@@ -7,6 +7,7 @@
     "rest-server": "entry.js"
   },
   "scripts": {
+    "start": "nodemon bin/entry.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
