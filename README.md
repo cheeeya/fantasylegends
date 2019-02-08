@@ -1,1 +1,1 @@
-# fantasylegends
+# Fantasy Sports Legends
