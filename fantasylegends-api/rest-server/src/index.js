@@ -1,6 +1,6 @@
 import http from 'http';
 import App from './config/express';
-import { success } from './lib/log';
+import { success } from './config/lib/log';
 
 const app = App.express;
 
