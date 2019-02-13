@@ -13,7 +13,7 @@ const envBuild = {
     'AWS_PASSWORD=',
     'AWS_PORT=',
     'SALT_ROUNDS=10',
-    'SR_KEY=',
+    'SR_NBA_KEY=',
     'TOKEN_SECRET_KEY=fantasylegends'
   ]
 };
