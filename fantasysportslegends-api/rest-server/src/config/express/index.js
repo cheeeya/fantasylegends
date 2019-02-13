@@ -3,6 +3,8 @@ import cors from 'cors';
 import parser from 'body-parser';
 import helmet from 'helmet';
 
+import router from '../../routes/index';
+
 const middleWare = [
   helmet(),
   cors({
@@ -22,7 +24,9 @@ class App {
     this.express.use(...middleWare);
   }
 
-  // mount routes
+  mountRoutes() {
+    this.express.use('/api', router);
+  }
 
 }
 
