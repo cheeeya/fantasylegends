@@ -18,6 +18,7 @@ class App {
   constructor() {
     this.express = express();
     this.mountMiddleWare();
+    this.mountRoutes();
   }
 
   mountMiddleWare() {
